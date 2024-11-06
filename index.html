@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="img" href="./image/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Joker Movie</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav">
+        <a href="#"><img src="./image/logo.png" alt="logo" class="logo" /></a>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/omad_coder_07?igsh=MXAxM2R6Y2hpNG54YQ=="
+              ><i class="ri-instagram-line"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100095231617106"
+              ><i class="ri-facebook-circle-line"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/OmadbekXusanboyev"
+              ><i class="ri-github-line"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-search-line"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="side-nav">
+        <i class="ri-menu-2-line menu-icon" onclick="toggleMenu()"></i>
+        <div class="vertical-line"></div>
+
+        <div class="circle-nav active"></div>
+        <div class="circle-nav"></div>
+        <div class="circle-nav"></div>
+        <div class="circle-nav"></div>
+
+        <div class="vertical-text">Movies</div>
+      </nav>
+    </header>
+
+    <div class="sliding-menu" id="slidingMenu">
+      <i class="ri-close-large-line close-icon" onclick="toggleMenu()"></i>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Tranding</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Trailer</a></li>
+      </ul>
+    </div>
+
+    <div class="left-content">
+      <p data-aos="fade-right" data-aos-duration="500">
+        They Wno't Make You Laugh
+      </p>
+      <h1>
+        <span class="word" data-aos="fade-up" data-aos-duration="1000"
+          >the</span
+        >
+        <span class="word" data-aos="fade-up" data-aos-duration="2000"
+          >Joker</span
+        >
+        <span class="word" data-aos="fade-up" data-aos-duration="3000"
+          >movie</span
+        >
+      </h1>
+      <div class="buttons">
+        <a href="https://youtu.be/jgrLr9okJ3U?si=CkHS36fOo_n3fLKq"
+          ><button
+            class="button play"
+            data-aos="flip-left"
+            data-aos-duration="2200"
+          >
+            Play
+          </button></a
+        >
+        <button
+          class="button download"
+          data-aos="flip-left"
+          data-aos-duration="2200"
+        >
+          Download
+        </button>
+      </div>
+    </div>
+
+    <div class="right-content" data-aos="fade-left" data-aos-duration="2000">
+      <div class="movie-info">
+        <img src="./image/img2.jpg" alt="joker" class="poster" />
+        <div class="more-icon">
+          <i class="ri-more-fill"></i>
+        </div>
+        <div
+          class="movie-details"
+          data-aos="fade-down"
+          data-aos-duration="2500"
+        >
+          <h3>JOKER</h3>
+          <p class="details">2019 | +21 | 2h 5min | Violence</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="button-group">
+          <button
+            class="button watch-trailer"
+            data-aos="flip-left"
+            data-aos-duration="2200"
+          >
+            <a href="https://youtu.be/_OKAwz2MsJs?si=KsMvEPhp7vqIiXJd"
+              ><span><i class="ri-play-fill"></i>Watch Trailer</span></a
+            >
+          </button>
+          <button
+            class="button bookmark"
+            data-aos="flip-left"
+            data-aos-duration="2200"
+          >
+            <i class="ri-bookmark-line"></i>
+          </button>
+          <button
+            class="button more"
+            data-aos="flip-left"
+            data-aos-duration="2200"
+          >
+            <i class="ri-arrow-right-down-line"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./script.js"></script>
+</html>
